@@ -47,7 +47,7 @@ fails, the error is sent back to the agent for up to two repairs. If the request
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env        # then put your GROQ_API_KEY in .env
+cp .env # then put your GROQ_API_KEY in .env
 streamlit run app.py
 ```
 
